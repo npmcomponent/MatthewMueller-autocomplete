@@ -1,29 +1,21 @@
 {
-  "name": "autocomplete",
-  "version": "0.1.0",
+  "name": "matthewmueller-autocomplete",
   "description": "Autocomplete component",
-  "main": "test/server.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MatthewMueller/autocomplete.git"
-  },
+  "version": "0.1.0",
   "keywords": [
     "autocomplete",
     "component",
     "ui"
   ],
-  "author": "Matt Mueller <mattmuelle@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MatthewMueller/autocomplete/issues"
-  },
   "dependencies": {
-    "express": "~3.3.4"
-  }
+    "matthewmueller-throttle": "git://github.com/npmcomponent/matthewmueller-throttle.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "visionmedia-superagent": "git://github.com/npmcomponent/visionmedia-superagent.git",
+    "matthewmueller-menu": "git://github.com/npmcomponent/matthewmueller-menu.git",
+    "component-map": "git://github.com/npmcomponent/component-map.git",
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git"
+  },
+  "license": "MIT"
 }

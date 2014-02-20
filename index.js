@@ -2,14 +2,14 @@
  * Module dependencies
  */
 
-var throttle = require('throttle'),
-    classes = require('classes'),
-    event = require('event'),
-    toFunction = require('to-function'),
-    map = require('map'),
-    Menu = require('menu'),
-    Emitter = require('emitter'),
-    request = require('superagent'),
+var throttle = require('matthewmueller-throttle'),
+    classes = require('component-classes'),
+    event = require('component-event'),
+    toFunction = require('component-to-function'),
+    map = require('component-map'),
+    Menu = require('matthewmueller-menu'),
+    Emitter = require('component-emitter'),
+    request = require('visionmedia-superagent'),
     noop = function() {};
 
 /**
